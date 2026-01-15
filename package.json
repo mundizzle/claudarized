@@ -1,7 +1,7 @@
 {
-  "name": "claude-theme",
-  "displayName": "Claude Theme",
-  "description": "A warm, elegant color theme inspired by Claude's aesthetic",
+  "name": "claudarized",
+  "displayName": "Clauderized",
+  "description": "A warm, Solarized-inspired color theme with Claude's aesthetic",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.60.0"
@@ -12,14 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Claude Light",
+        "label": "Clauderized Light",
         "uiTheme": "vs",
-        "path": "./themes/claude-light-color-theme.json"
+        "path": "./themes/claudarized-light-color-theme.json"
       },
       {
-        "label": "Claude Dark",
+        "label": "Clauderized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/claude-dark-color-theme.json"
+        "path": "./themes/claudarized-dark-color-theme.json"
       }
     ]
   }

@@ -1,6 +1,6 @@
-# Claude Theme
+# Claudarized
 
-A warm, elegant color theme inspired by Claude's aesthetic. Available for VS Code and Ghostty terminal.
+A warm, Solarized-inspired color theme with Claude's aesthetic. Available for VS Code and Ghostty terminal.
 
 ## Features
 
@@ -12,7 +12,7 @@ A warm, elegant color theme inspired by Claude's aesthetic. Available for VS Cod
 
 ## Design Philosophy
 
-Inspired by [Solarized](https://ethanschoonover.com/solarized/), this theme uses a **unified accent palette** - the same 8 syntax highlighting colors work on both light and dark backgrounds. This provides:
+Inspired by [Solarized](https://ethanschoonover.com/solarized/), Claudarized uses a **unified accent palette** - the same 8 syntax highlighting colors work on both light and dark backgrounds. This provides:
 
 - Consistent color meanings when switching themes
 - Colors chosen for medium brightness (readable on any background)
@@ -57,27 +57,27 @@ These 8 colors are shared between light and dark themes:
 
 ```bash
 # macOS/Linux
-ln -s /path/to/claude-theme ~/.vscode/extensions/claude-theme
+ln -s /path/to/claudarized ~/.vscode/extensions/claudarized
 
 # Windows (PowerShell as Admin)
-New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.vscode\extensions\claude-theme" -Target "C:\path\to\claude-theme"
+New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.vscode\extensions\claudarized" -Target "C:\path\to\claudarized"
 ```
 
 ### Option 2: Copy
 
 ```bash
 # macOS/Linux
-cp -r /path/to/claude-theme ~/.vscode/extensions/
+cp -r /path/to/claudarized ~/.vscode/extensions/
 
 # Windows
-xcopy /E /I "C:\path\to\claude-theme" "%USERPROFILE%\.vscode\extensions\claude-theme"
+xcopy /E /I "C:\path\to\claudarized" "%USERPROFILE%\.vscode\extensions\claudarized"
 ```
 
 ### Activate
 
 1. Open VS Code
 2. Press `Cmd+K Cmd+T` (macOS) or `Ctrl+K Ctrl+T` (Windows/Linux)
-3. Select **Claude Light** or **Claude Dark**
+3. Select **Claudarized Light** or **Claudarized Dark**
 
 ## Ghostty Installation
 
@@ -86,14 +86,14 @@ xcopy /E /I "C:\path\to\claude-theme" "%USERPROFILE%\.vscode\extensions\claude-t
 mkdir -p ~/.config/ghostty/themes
 
 # Copy theme files
-cp ghostty/claude-light ~/.config/ghostty/themes/
-cp ghostty/claude-dark ~/.config/ghostty/themes/
+cp ghostty/claudarized-light ~/.config/ghostty/themes/
+cp ghostty/claudarized-dark ~/.config/ghostty/themes/
 ```
 
 Add to `~/.config/ghostty/config`:
 
 ```
-theme = claude-dark
+theme = claudarized-dark
 ```
 
 Restart Ghostty to apply.
