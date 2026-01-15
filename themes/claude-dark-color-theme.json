@@ -21,6 +21,13 @@
     "editorIndentGuide.activeBackground": "#443F3A",
     "editorBracketMatch.background": "#D9775744",
     "editorBracketMatch.border": "#D97757",
+    "editorBracketHighlight.foreground1": "#A8A29E",
+    "editorBracketHighlight.foreground2": "#9CAF9C",
+    "editorBracketHighlight.foreground3": "#C4A484",
+    "editorBracketHighlight.foreground4": "#A8A29E",
+    "editorBracketHighlight.foreground5": "#9CAF9C",
+    "editorBracketHighlight.foreground6": "#C4A484",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#EF4444",
     "editorGutter.background": "#2D2926",
 
     "activityBar.background": "#2D2926",
