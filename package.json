@@ -1,6 +1,6 @@
 {
   "name": "claudarized",
-  "displayName": "Clauderized",
+  "displayName": "Claudarized",
   "description": "A warm, Solarized-inspired color theme with Claude's aesthetic",
   "version": "1.0.0",
   "engines": {
@@ -12,12 +12,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "Clauderized Light",
+        "label": "Claudarized Light",
         "uiTheme": "vs",
         "path": "./themes/claudarized-light-color-theme.json"
       },
       {
-        "label": "Clauderized Dark",
+        "label": "Claudarized Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/claudarized-dark-color-theme.json"
       }
