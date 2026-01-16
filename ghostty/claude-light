@@ -1,0 +1,29 @@
+# Claude Light Theme for Ghostty
+# Based on Claude's actual UI colors
+
+background = #FAF9F5
+foreground = #3D3D3A
+cursor-color = #CC7C5E
+cursor-text = #FAF9F5
+selection-background = #E8C4B8
+selection-foreground = #3D3D3A
+
+# Normal colors (0-7)
+palette = 0=#3D3D3A
+palette = 1=#DC2626
+palette = 2=#7A937A
+palette = 3=#C08830
+palette = 4=#4682D5
+palette = 5=#9080B0
+palette = 6=#4A9B92
+palette = 7=#E0DED8
+
+# Bright colors (8-15)
+palette = 8=#73726D
+palette = 9=#EF4444
+palette = 10=#8FA88F
+palette = 11=#D4A050
+palette = 12=#6B9ADF
+palette = 13=#A898C8
+palette = 14=#5FAFA5
+palette = 15=#FAF9F5
